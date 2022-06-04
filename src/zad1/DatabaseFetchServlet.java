@@ -33,7 +33,7 @@ public class DatabaseFetchServlet extends HttpServlet {
             response.getWriter().write("<p> Listing cars of chosen type: "+ carType + "</p>");
             response.getWriter().write(TestServlet.getCarsTable(carType));
 
-            response.getWriter().write("<a href='/tpo5'>Return</a>");
+            response.getWriter().write("<a href='/tpo5/request'>Return</a>");
             response.getWriter().write("</body></html>");
 
         } catch (Exception e) {
