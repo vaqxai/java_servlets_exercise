@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TPO5_KS_S22666:war exploded">
+    <output-path>$PROJECT_DIR$/bin/artifacts/TPO5_KS_S22666_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TPO5_KS_S22666/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TPO5_KS_S22666" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
